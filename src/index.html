@@ -4,13 +4,138 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <header>
+        <nav>
+            <ul decorate="none">
+                <!-- '#' goes to the section on the same page -->
+                <li><a href="#about">About</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h1>Yonathan Surafel</h1>
+
+            <h2>About Me</h2>
+
+            <p>Hello! I'm Yonathan, a passionate technologist with a bachelors degree in Computer Science. I enjoy learning new technologies and applying them to solve problems.</p>
+            <p>I am a curious and determined person who enjoys taking on challenges and finding practical solutions. I work well independently, but I also value collaborating with others and learning from different perspectives.</p>
+
+            <figure>
+            <img src="images/Grad-photo.jpeg"
+                alt="Me on my graduation day"
+                width="300">
+
+            <figcaption>
+                Here is me on my graduation day!
+            </figcaption>
+            </figure>
+        </section>
+
+        <section id="interests">
+            <h2>My interests</h2>
+            <h3>Things I enjoy in my free time</h3>
+            <ol class="list">
+                <li>
+                    <strong>Sport</strong>
+                    <p>When I'm away from my desk,I enjoy sports like basketball, football and badminton.</p>
+                </li>
+                <li>
+                    <strong>Music</strong>
+                    <p>I listen to music everywhere I go. Some of my favourite genres are RnB, hip-hop and afrobeats</p>
+                </li>
+                <li>
+                    <strong>Chelsea football club</strong>
+                    <p>I'm a huge chelsea fan. I watch their matches whenever I can.</p>
+                </li>
+                <li>
+                    <strong>Chess</strong>
+                    <p>Chess is a game I've played since childhood and I've recently enjoyed watching professionals play tournaments online.</p>
+                </li>
+                
+            </ol>
+
+            <h3>Skills I've acquired to further my career</h3>
+            <p> Below is a table of some skills I've developed and my proficiency levels for them</p>
+
+            <table>
+                <tr>
+                    <th>Skill</th>
+                    <th>Education level learnt</th>
+                    <th>Proficiency Level</th>
+                    <th>Experience with skill</th>
+                </tr>
+                <tr>
+                    <td>Cloud computing (AWS)</td>
+                    <td>3rd year university</td>
+                    <td>Intermediate</td>
+                    <td>Deployed many applications on AWS including a task manager API and multiple PWA's using servers like Lambda, EC2 and ECS</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>GCSE and A levels</td>
+                    <td>Intermediate</td>
+                    <td>Backend development for a progressiv webapp that ingests metrics and performs statistical analysis on them with scipy and numpy</td>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td> First year university</td>
+                    <td>Intermediate</td>
+                    <td>Produced a finished 2D game in java using my universities physics library</td>
+                </tr>
+                <tr>
+                    <td>Linux</td>
+                    <td>Second year university</td>
+                    <td>Beginner</td>
+                    <td>Regularly use common commands in terminal for cloud-based projects</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>La Fosse's application assessment</td>
+                    <td>Beginner</td>
+                    <td>No real experience past small exercises</td>
+                </tr>
+            </table>
+            </section>
+
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <p>If you would like to get in touch, please feel free to reach out via email or connect with me on LinkedIn.</p>
+                <ul class="contact-list"> 
+                <li>
+                    <a href="mailto:yonathansurafel62@gmail.com">
+                    yonathansurafel62@gmail.com
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.linkedin.com/in/yonathan-surafel-ba2425244/" target="_blank">
+                    My LinkedIn Profile
+                    </a>
+                </li>
+                </ul>
+            </section>
+
+
+           
+                
+
+    </main>
+
+    <footer>
+        <p>Created by Yonathan Surafel</p>
+        <p>&copy; 2026 My Personal Website</p>
+    </footer>
+
+</body>
 
 
 
-<head>
-    <title>My Personal Website</title>
-</head>
-<h1>Welcome to My Website</h1>
+
