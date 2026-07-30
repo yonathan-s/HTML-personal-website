@@ -1,0 +1,36 @@
+/* 
+Things to add:
+
+Have a look at this link of
+websites for styling ideas!
+
+Use a nice colour palette for your
+website, e.g. from Colorhunt
+
+Style your website using id and
+class selectors.
+
+Think about the layout of your
+page, background colours, font
+colours, fonts (Google fonts).
+
+Familiarise yourself with the Box
+Model and include Margin and
+Padding to your styling.
+
+Play around with Flexbox. Use on
+your nav bar and on your
+ordered or unordered list, and on
+any other areas of your website if
+you want to. View link here for
+guidance.
+
+Review CSS Layouts and include
+a position: fixed;
+*/
+
+
+h1{
+    color: rgb(76, 76, 131);
+    background-color: rgb(117, 117, 134);
+}
