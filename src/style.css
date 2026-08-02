@@ -148,3 +148,51 @@ footer {
     background-color: rgb(144, 175, 214);
     color: black;
 }
+
+#interests {
+    text-align: center;
+}
+
+#interests h2 {
+    margin-bottom: 10px;
+}
+
+#interests h3 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.interest-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+    list-style-position: inside;
+    margin: 20px auto;
+    padding: 0;
+    max-width: 700px;
+}
+
+.interest-cards li {
+    width: 280px;
+    min-height: 160px;
+    padding: 20px;
+
+    background-color: lightblue;
+    border: 2px solid darkblue;
+    border-radius: 12px;
+}
+
+.interest-cards strong {
+    display: block;
+    margin-bottom: 10px;
+
+    color: darkblue;
+    font-size: 20px;
+}
+
+.interest-cards p {
+    margin: 0;
+    line-height: 1.5;
+}
