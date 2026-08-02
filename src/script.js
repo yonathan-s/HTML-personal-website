@@ -1,5 +1,5 @@
-const skillsButton = document.getElementById("skills-button");
-const skillsTable = document.getElementById("skills-table");
+const skillsButton = document.querySelector("#skills-button");
+const skillsTable = document.querySelector("#skills-table");
 
 skillsButton.addEventListener("click", function() {
     if (skillsTable.style.display === "none") {
