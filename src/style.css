@@ -134,3 +134,17 @@ footer {
     padding: 20px;
     margin-top: 30px;
 }
+
+#skills-button {
+    background-color: rgb(71, 103, 145);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+#skills-button:hover {
+    background-color: rgb(144, 175, 214);
+    color: black;
+}
