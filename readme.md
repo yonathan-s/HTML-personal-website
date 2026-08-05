@@ -1,5 +1,5 @@
 # Personal website
-I created a personal website with HTML and CSS.
+I created a Portfolio website with HTML, JS and CSS.
 
 ## HTML
 
